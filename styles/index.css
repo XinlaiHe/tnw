@@ -1,0 +1,40 @@
+.top-bar-title img{
+    height:30px;
+
+}
+#container{
+    max-width:100%;
+    min-height:70%;
+}
+#container > div:first-child{
+  background:url("../res/tree.jpg");
+  background-size:cover;
+  position:relative;
+}
+#container div p{
+    position:absolute;
+    bottom:0;
+    color:white;
+    font-size:2em;
+}
+.top-bar, .top-bar ul {
+    background-color: white;
+}
+#container-top{
+  height:230px;
+  background:url("../res/river.jpg");
+  background-size:cover;
+  position:relative;
+}
+#container-bottom-left{
+  height:230px;
+  background:url("../res/sky.jpg");
+  background-size:cover;
+  position:relative;
+}
+#container-bottom-right{
+  height:230px;
+  background:url("../res/hill.jpg");
+  background-size:cover;
+  position:relative;
+}
